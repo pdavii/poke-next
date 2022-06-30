@@ -1,5 +1,7 @@
+import * as S from './styled'
+
 export default function Header({ children }) {
     return (
-        <header>{children}</header>
+        <S.Wrapper>{children}</S.Wrapper>
     )
 }

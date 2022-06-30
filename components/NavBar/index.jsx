@@ -1,13 +1,14 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import * as S from './styled'
 
 export default function NavBar() {
     return (
-        <nav>
-            <div>
+        <S.Wrapper>
+            <S.Logo>
                 <Image src="/images/pokeball.png" alt="Pokeball from Pokémon Anime" width="30" height="30" />
                 <p>PokeNext</p>
-            </div>
+            </S.Logo>
             <ul>
                 <li>
                     <Link href="/">
@@ -20,6 +21,6 @@ export default function NavBar() {
                     </Link>
                 </li>
             </ul>
-        </nav>
+        </S.Wrapper>
     )
 }

@@ -8,7 +8,7 @@ export default function Layout({ children }) {
             <Header>
                 <NavBar />
             </Header>
-            <main>{children}</main>
+            <main className='main-container'>{children}</main>
             <Footer />
         </>
     )
