@@ -7,4 +7,9 @@ export const Wrapper = styled.header`
     padding: 0 20px;
     display: flex;
     align-items: center;
+
+    @media (min-width: 1300px) {
+        padding-left: calc((100vw - 1200px)/2);
+        padding-right: calc((100vw - 1200px)/2);
+    }
 `
